@@ -33,7 +33,7 @@ export async function getStaticPaths() {
 
 interface Props {
   tag: string;
-  blogposts: CollectionEntry<'blog'>[];
+  blogposts: CollectionEntry<'work'>[];
 }
 
 const { tag, blogposts } = Astro.props;

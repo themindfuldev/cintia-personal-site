@@ -1,7 +1,6 @@
 ---
 import Layout from '@layouts/Default.astro';
 import MobileSocials from '@components/home/MobileSocials.astro';
-import { Pill } from '@eliancodes/brutal-ui';
 import { Card } from '@eliancodes/brutal-ui';
 import { Image } from "astro:assets";
 
@@ -118,7 +117,7 @@ import { Image } from "astro:assets";
     </section>
   </main>
 
-  <script src="https://web3forms.com/client/script.js" async defer></script>
+  <script is:inline src="https://web3forms.com/client/script.js" async defer></script>
 </Layout>
 
 <script is:inline>
