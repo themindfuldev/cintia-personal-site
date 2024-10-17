@@ -1,14 +1,12 @@
 ---
-title: Blogpost 4
-author: Elian Van Cutsem
-pubDate: 2023-02-15 12:00
-tags:
-  - Astro
-  - JavaScript
-  - Web Development
+title: Talk 3
 description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
+pubDate: 2023-02-14 23:49
+author: Elian Van Cutsem
+tags: 
+  - talk
 imgUrl: '../../assets/astro.jpeg'
-layout: "../../layouts/BlogPost.astro"
+layout: ../../layouts/BlogPost.astro
 ---
 
 ## Deorum petiit ignis

@@ -12,10 +12,10 @@ const fontData: ArrayBuffer = await fontFile.arrayBuffer();
 const height = 630;
 const width = 1200;
 
-const posts = await getCollection('blog');
+const posts = await getCollection('work');
 
 export function getStaticPaths() {
-  return posts.map((post) => ({
+  return posts.map((post: any) => ({
     params: { slug: post.slug },
     props: { title: post.data.title, description: post.data.description },
   }));

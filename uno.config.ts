@@ -12,8 +12,8 @@ export default defineConfig({
       collections: {
         logos: () =>
           import('@iconify-json/logos/icons.json').then((i) => i.default),
-        uil: () =>
-          import('@iconify-json/uil/icons.json').then((l) => l.default),
+        mdi: () =>
+          import('@iconify-json/mdi/icons.json').then((l) => l.default),
       },
     }),
     presetTypography(),

@@ -8,7 +8,7 @@
     "email": "hello@elian.codes",
     "url": "https://www.elian.codes/"
   },
-  "homepage": "https://brutal.elian.codes",
+  "homepage": "https://cintiaromero.com",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -17,22 +17,23 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.7",
-    "@astrojs/sitemap": "^3.1.6",
+    "@astrojs/check": "^0.9.4",
+    "@astrojs/rss": "^4.0.8",
+    "@astrojs/sitemap": "^3.2.0",
     "@eliancodes/brutal-ui": "^0.2.3",
     "@unocss/astro": "^0.57.7",
-    "astro": "^4.14.5",
+    "astro": "^4.16.3",
     "astro-font": "^0.0.80",
     "satori": "^0.5.0",
     "satori-html": "^0.3.2",
-    "@astrojs/check": "^0.9.4",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.41",
-    "@iconify-json/uil": "^1.1.8",
+    "@iconify-json/mdi": "^1.2.1",
     "@resvg/resvg-js": "^2.6.0",
     "@typescript-eslint/parser": "^6.15.0",
+    "@unocss/preset-icons": "^0.63.4",
     "@unocss/reset": "^0.57.7",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.29.1",

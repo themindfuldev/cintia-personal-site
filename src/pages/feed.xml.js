@@ -2,19 +2,19 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-  const blog = await getCollection('blog');
+  const blog = await getCollection('work');
   return rss({
-    title: 'Brutal Blog',
-    description: 'Brutal is a theme for Astro',
+    title: 'Cintia Romero',
+    description: "I'm Cintia Romero (She/Her)! I craft inclusive digital experiences that make everyday life easier. Currently, I'm a Senior Product Designer at Pinterest with a focus on accessibility, and design systems.",
     stylesheet: false,
     site: context.site,
     items: blog.map((post) => ({
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      link: `/blog/${post.slug}/`,
+      link: `/work/${post.slug}/`,
     })),
     customData: '<language>en-us</language>',
-    canonicalUrl: 'https://brutal.elian.codes',
+    canonicalUrl: 'https://cintiaromero.com',
   });
 }

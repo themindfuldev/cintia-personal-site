@@ -5,21 +5,27 @@ interface Props {
 
 const navigationItems = [
   { name: 'Home', url: '/' },
-  { name: 'Blog', url: '/blog/' },
+  { name: 'Myself', url: '/myself/' },
+  { name: 'My work', url: '/work/' },
+  { name: 'Contact', url: '/contact/' },
 ];
 
 const socialIcons = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/eliancodes/brutal',
-    icon: 'i-uil-github',
+    name: 'Pinterest',
+    url: 'https://www.pinterest.com/cintiaaa_romero',
+    icon: 'i-mdi-pinterest',
   },
   {
-    name: 'Twitter',
-    url: 'https://www.twitter.com/eliancodes',
-    icon: 'i-uil-twitter',
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/cintiaaaromero',
+    icon: 'i-mdi-linkedin',
   },
-  { name: 'RSS', url: '/feed.xml', icon: 'i-uil-rss' },
+  {
+    name: 'Instagram',
+    url: 'https://instagram.com/cintiaaaromero',
+    icon: 'i-mdi-instagram',
+  }
 ];
 
 const { pageTitle } = Astro.props;
@@ -28,7 +34,7 @@ const { pageTitle } = Astro.props;
 <header class='border-b-4 border-black flex justify-between p-6 items-center'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
   <a href='/' title='Back to Home'>
-    <p class='righteous md:text-5xl'>Brutal</p>
+    <p class='righteous md:text-5xl'>Cintia Romero</p>
   </a>
   <nav class='hidden md:inline-block'>
     <h2 class='hidden'>Navigation</h2>
@@ -53,7 +59,7 @@ const { pageTitle } = Astro.props;
               href={item.url}
               class='hover:text-green hover:underline transition-all duration-150 ease-in-out'
               target='_blank'
-              title={`'See @ElianCodes on ${item.name}`}
+              title={`'See Cintia Romero on ${item.name}`}
             >
               <div class:list={[item.icon, 'w-6 h-6']} />
             </a>
@@ -64,8 +70,11 @@ const { pageTitle } = Astro.props;
   </nav>
   <nav class='md:hidden flex'>
     <h2 class='hidden'>Mobile Navigation</h2>
-    <ul>
-      <li><a href='/blog/'>Blog</a></li>
+    <ul class="flex gap-4">
+      <li><a href='/home/'>Home</a></li>
+      <li><a href='/myself/'>Myself</a></li>
+      <li><a href='/work/'>My work</a></li>
+      <li><a href='/contact/'>Contact</a></li>
     </ul>
   </nav>
 </header>

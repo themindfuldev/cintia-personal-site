@@ -1,0 +1,192 @@
+---
+import Layout from '@layouts/Default.astro';
+import MobileSocials from '@components/home/MobileSocials.astro';
+import { Pill } from '@eliancodes/brutal-ui';
+import { Card } from '@eliancodes/brutal-ui';
+import { Image } from "astro:assets";
+
+---
+
+<style>
+  .brutal-btn {
+    filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+    background-color: white;
+    display: flex;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    transition: all;
+    transition-duration: 0.5s;
+    animation: ease-in-out;
+    font-family: 'Sanchez', serif;
+  }
+  .brutal-btn:hover {
+    filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
+    background-color: rgb(244 114 182);
+  }
+</style>
+
+<Layout
+  title='Home'
+  pageTitle='Cintia Romero | Home'
+  description="I design inclusive experiences that make people's lives simpler"
+>
+  <main class='bg-pink p-6'>
+    <MobileSocials />
+    <section id='about' class='grid md:grid-cols-8 gap-8 mt-4'>
+      <h2 class='hidden'>About Cintia Romero</h2>
+      <div class='lg:col-span-6 md:col-span-5 sm:col-span-8'>
+        <Card>
+          <div class='flex flex-col justify-between items-start gap-4'>
+            <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
+              Contact me
+            </p>
+            <p class='mt-2 outfit text-xl md:text-2xl lg:text-3xl'>
+              Let's get in touch! Drop me a line and I'll get back to you ASAP.
+            </p>
+
+            <form id="form" class="w-full" method="POST" data-astro-reload>
+              <input type="hidden" name="access_key" value="687cda4e-b812-401c-87df-56f63ac39e90" />
+          
+              <div class="mb-8 w-full md:w-auto">
+                
+                <div id="success-message" role="alert" class="hidden">
+                  <Card color="springgreen">
+                    <div class="flex">
+                      <span class="mr-2 i-mdi-success-circle-outline w-6 h-6"></span>
+                      <span data-content="message"></span>
+                    </div>
+                  </Card>
+                </div>
+          
+                <div id="error-message" role="alert" class="hidden">
+                  <Card color="orange">
+                    <div class="flex">
+                      <span class="mr-2 i-mdi-error-outline w-6 h-6"></span>
+                      <span data-content="message">Something went wrong!</span>
+                    </div>
+                  </Card>
+                </div>
+              </div>
+            
+              <div class="grid col-span-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                <div class="sm:col-span-4">
+                  <label for="name" class="block text-sm font-medium leading-6 text-gray-900">Your name:</label>
+                  <div class="mt-2">
+                    <input id="name" type="text" name="name" required autocomplete="on" class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                  </div>
+                </div>
+          
+                <div class="sm:col-span-4">
+                  <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Your e-mail address:</label>
+                  <div class="mt-2">
+                    <input id="email" type="email" name="email" required autocomplete="on" class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                  </div>
+                </div>
+          
+                <div class="col-span-full">
+                  <label for="message" class="block text-sm font-medium leading-6 text-gray-900">Your message:</label>
+                  <div class="mt-2">
+                    <textarea id="message" name="message" required rows="6" minlength="50" class="block w-full rounded-md border-0 px-3 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                  </div>
+                </div>
+          
+                <div class="col-span-full">
+                  <div class="h-captcha" data-captcha="true"></div>
+                </div>
+          
+                <div class="col-span-full">
+                  <div id="submit-btn">
+                    <button type="submit" class="brutal-btn">
+                      <span class="mr-2 i-mdi-email-outline w-6 h-6" /> Send
+                    </button>
+                  </div>
+                  <div id="sending-message" class="hidden">
+                    <div class="flex">
+                      <span class="mr-2 inline-block"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-dasharray="16" stroke-dashoffset="16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3c4.97 0 9 4.03 9 9"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="16;0"/><animateTransform attributeName="transform" dur="1.5s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></path></svg></span>
+                      <span> Sending...</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </Card>
+      </div>
+      <div class='lg:col-span-2 md:col-span-3 sm:col-span-8'>
+        <Image class="object-cover w-full rounded-lg border-3 border-black card-shadow" format="webp" width={300} height={300} src="/profile-2.webp" alt="Cintia's face" />
+      </div> 
+    </section>
+  </main>
+
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+</Layout>
+
+<script is:inline>
+  (() => {
+    const form = document.getElementById('form');
+    const submitButton = document.getElementById('submit-btn');
+    const sendingMessage = document.getElementById('sending-message');
+    
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+  
+      const successMessage = document.getElementById('success-message');
+      successMessage.classList.add("hidden");
+      const errorMessage = document.getElementById('error-message');
+      errorMessage.classList.add("hidden");    
+      let messageElement;    
+      
+      // Client-side validation
+      const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+      
+      if (!hCaptcha) {
+        errorMessage.querySelector('[data-content="message"]').innerText = "Please fill out captcha field.";
+        errorMessage.classList.remove("hidden");
+        errorMessage.scrollIntoView({ behavior: "smooth" });
+        return;
+      }
+      
+      const formData = new FormData(form);
+      const object = Object.fromEntries(formData);
+      object.subject = `[cintiaromero.com] Message from ${object.name}`;
+      const json = JSON.stringify(object);
+  
+      submitButton.classList.add("hidden");
+      sendingMessage.classList.remove("hidden");
+  
+      fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: json
+        })
+        .then(async (response) => {
+          let json = await response.json();
+          if (response.status == 200) {
+            messageElement = successMessage;
+            form.reset();
+          } else {
+            console.log(response);
+            messageElement = errorMessage;
+          }
+          messageElement.querySelector('[data-content="message"]').innerText = json.message;
+        })
+        .catch(error => {
+          console.log(error);
+          errorMessage.querySelector('[data-content="message"]').innerText = "Something went wrong.";
+          messageElement = errorMessage;
+        })
+        .then(function() {
+          messageElement.classList.remove("hidden");
+          submitButton.classList.remove("hidden");
+          sendingMessage.classList.add("hidden");
+          setTimeout(() => {
+            messageElement.scrollIntoView({ behavior: "smooth", block: "end" });
+            messageElement = null;
+          }, 0);
+        });
+      });
+    })(); 
+    </script>

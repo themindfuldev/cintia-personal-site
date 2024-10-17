@@ -114,4 +114,21 @@ The theme has a few colors that you can use in the included components.
 
 More colors can be added in `astro.config.mjs` in the `colors` array.
 
+#c084fc: Lavender
+#f472b6: Deep Pink
+#fb7185: Light Coral
+#e879f9: Lavender Blush
+#a78bfa: Medium Orchid
+#818cf8: Alice Blue
+#60a5fa: Sky Blue
+#38bdf8: Light Sky Blue
+#22d3ee: Light Cyan
+#2dd4bf: Turquoise
+#34d399: Medium Sea Green
+#4ade80: Spring Green
+#a3e635: Lime Green
+#facc15: Gold
+#fb923c: Orange
+#f87171: Tomato
+
 If you need more from this theme, don't hesitate to open an issue or reach out to me!
