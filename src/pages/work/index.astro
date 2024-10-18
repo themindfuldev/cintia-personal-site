@@ -4,7 +4,7 @@ import Layout from '@layouts/Default.astro';
 import BlogList from '@components/blog/BlogList.astro';
 
 const posts = await getCollection('work').then((collection) =>
-  collection.reverse()
+  collection.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
 );
 
 const projects = posts.filter((post) => post.data.tags.includes("project"));
