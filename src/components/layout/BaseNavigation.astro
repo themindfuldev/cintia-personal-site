@@ -43,7 +43,7 @@ const { pageTitle } = Astro.props;
         navigationItems.map((item) => (
           <li>
             <a
-              class='text-lg font-medium hover:text-green hover:underline transition-all duration-150 ease-in-out'
+              class='text-lg font-medium hover:text-violet-600 hover:underline transition-all duration-150 ease-in-out'
               href={item.url}
               title={`Go to ${item.name}`}
             >
@@ -57,7 +57,7 @@ const { pageTitle } = Astro.props;
           <li>
             <a
               href={item.url}
-              class='hover:text-green hover:underline transition-all duration-150 ease-in-out'
+              class='hover:text-violet-600 hover:underline transition-all duration-150 ease-in-out'
               target='_blank'
               title={`'See Cintia Romero on ${item.name}`}
             >
@@ -71,7 +71,7 @@ const { pageTitle } = Astro.props;
   <nav class='md:hidden flex'>
     <h2 class='hidden'>Mobile Navigation</h2>
     <ul class="flex gap-4">
-      <li><a href='/home/'>Home</a></li>
+      <li><a href='/'>Home</a></li>
       <li><a href='/myself/'>Myself</a></li>
       <li><a href='/work/'>My work</a></li>
       <li><a href='/contact/'>Contact</a></li>

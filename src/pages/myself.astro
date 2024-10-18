@@ -1,86 +1,113 @@
 ---
-import Layout from '@layouts/Default.astro';
-import MobileSocials from '@components/home/MobileSocials.astro';
-import { Pill } from '@eliancodes/brutal-ui';
-import { Button } from '@eliancodes/brutal-ui';
-import { Card } from '@eliancodes/brutal-ui';
+import Layout from "@layouts/Default.astro";
+import MobileSocials from "@components/home/MobileSocials.astro";
+import { Card } from "@eliancodes/brutal-ui";
 import { Image } from "astro:assets";
-
-const builtWith = [
-  { name: 'Astro', url: 'https://astro.build/' },
-  { name: 'UnoCSS', url: 'https://uno.antfu.me/' },
-  {
-    name: 'Content Collections',
-    url: 'https://docs.astro.build/en/guides/content-collections/',
-  },
-  { name: 'RSS', url: 'https://docs.astro.build/en/guides/rss/' },
-  {
-    name: 'Sitemap',
-    url: 'https://docs.astro.build/en/guides/integrations-guide/sitemap/',
-  },
-  { name: 'Vercel', url: 'https://vercel.com' },
-  { name: 'TypeScript', url: 'https://www.typescriptlang.org/' },
-];
 ---
 
 <Layout
-  title='Home'
-  pageTitle='Cintia Romero | Home'
+  title="Home"
+  pageTitle="Cintia Romero | Home"
   description="I design inclusive experiences that make people's lives simpler"
 >
-  <main class='bg-pink p-6'>
+  <main class="bg-pink p-6">
     <MobileSocials />
-    <section id='about' class='grid md:grid-cols-8 gap-8 mt-4'>
-      <h2 class='hidden'>About Cintia Romero</h2>
-      <div class='col-span-4'>
-        <Card>
-          <div class='flex flex-col justify-between items-start gap-4'>
-            <p class='mt-4 outfit text-2xl md:text-5xl lg:text-7xl'>
-              Product Designer @<a
-                class='text-white'
-                target='_blank'
-                href='https://pinterest.com/'>Pinterest</a
+    <section id="about" class="grid md:grid-cols-8 gap-8 mt-4">
+      <h2 class="hidden">About Cintia Romero</h2>
+      <div class="lg:col-span-6 sm:col-span-8">
+        <Card color="#facc15">
+          <div class="flex flex-col justify-between items-start gap-4">
+            <p class="mt-2 outfit text-2xl md:text-2xl lg:text-3xl">
+              Hello, I'm Cintia Romero, and my pronouns are she/her.
+            </p>
+            <p class="mt-2 outfit text-xl md:text-lg lg:text-xl">
+              I am a Brazilian American with over 13 years of experience
+              crafting inclusive and user-friendly products for multiple
+              platforms. Currently, I work as a Senior Product Designer at
+              Pinterest, leading accessibility efforts.
+            </p>
+            <p class="mt-2 outfit text-xl md:text-lg lg:text-xl">
+              My passion for inclusive design has led me to the world of design
+              systems and accessibility! I firmly believe that as designers, we
+              should strive to create products and experiences that the broadest
+              range of people can use. Making our product accessible creates a
+              better experience for everyone.
+            </p>
+            <p class="mt-2 outfit text-xl md:text-lg lg:text-xl">
+              Additionally, I am an active member of the <a
+                href="https://www.accessibilityassociation.org/s/"
+                target="_blank"
+                class="hover:text-violet-600 underline transition-all duration-150 ease-in-out"
               >
+                Association of Accessibility Professionals (IAAP)</a
+              >, and I enjoy sharing my knowledge by mentoring other designers
+              and speaking at conferences about design.
             </p>
-            <p class='mt-2 outfit text-xl md:text-3xl lg:text-5xl'>
-              I design inclusive experiences that make people's lives simpler
+            <p class="mt-2 outfit text-xl md:text-lg lg:text-xl">
+              Beyond that, I am a dog mom of Sherlock, an art lover, and a
+              fitness enthusiast!
             </p>
-            <Button target={'_self'} href='/myself/'>
-              Learn about myself &rarr;
-            </Button>
           </div>
         </Card>
       </div>
-      <div class='col-span-2'>
-        <Card>
-          <Image class="mask mask-squircle" format="jpeg" width={300} height={300} src="/profile.jpeg" alt="Cintia's face" />
-        </Card>
+      <div
+        class="lg:col-span-2 md:col-span-3 sm:col-span-8 md:row-span-2 lg:row-span-1"
+      >
+        <Image
+          class="object-cover w-full rounded-lg border-3 border-black card-shadow"
+          format="webp"
+          width={800}
+          height={800}
+          src="/profile-3.webp"
+          alt="Cintia's face"
+        />
       </div>
-      <div class='col-span-2'>
-        <Card>
-          <h2 class='text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif'>
-            My skills
+      <div class="lg:col-span-3 md:col-span-5 sm:col-span-8">
+        <Card color="#38bdf8">
+          <h2 class="text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif">
+            5 facts about me
           </h2>
-          <ul class='flex gap-4 flex-wrap'>
-            {
-              builtWith.map((item) => (
-                <li>
-                  <Pill>
-                    <a
-                      class='sanchez'
-                      href={item.url}
-                      target='_blank'
-                      title={`Go to ${item.name}`}
-                    >
-                      {item.name}
-                    </a>
-                  </Pill>
-                </li>
-              ))
-            }
+          <ul class="list-decimal mx-8 outfit text-xl md:text-lg lg:text-xl">
+            <li>I'm vegan</li>
+            <li>I have an MBA in Fashion</li>
+            <li>I'm colorblind</li>
+            <li>I have Indigenous roots</li>
+            <li>
+              I speak 3 languages (Portuguese, English, Spanish).<br />Learning
+              ASL, next Italian!
+            </li>
           </ul>
         </Card>
-      </div>      
+      </div>
+      <div class="lg:col-span-5 md:col-span-8 sm:col-span-8">
+        <Card color="#34d399">
+          <h2 class="text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif">
+            My values
+          </h2>
+          <ul class="list-disc mx-8 outfit text-xl md:text-lg lg:text-xl">
+            <li class="mb-2">
+              <b>Empathetic and down-to-earth:</b><br />I care about people and
+              strive to make a difference.
+            </li>
+            <li class="mb-2">
+              <b>Adaptable and flexible:</b><br />As an immigrant, I learned to
+              roll with the punches and find creative solutions to challenges.
+            </li>
+            <li class="mb-2">
+              <b>Community-minded:</b><br />I believe diversity sparks great
+              ideas and brings people together.
+            </li>
+            <li class="mb-2">
+              <b>Always learning:</b><br />I'm always curious and open to new
+              experiences.
+            </li>
+            <li class="mb-2">
+              <b>Mental health advocate:</b><br /> I'm dedicated to advocating
+              for mental health awareness and support. We're all humans!
+            </li>
+          </ul>
+        </Card>
+      </div>
     </section>
   </main>
 </Layout>
