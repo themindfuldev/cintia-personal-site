@@ -5,11 +5,10 @@ import { Image } from 'astro:assets';
 interface Props {
   title: string;
   imgSrc: ImageMetadata;
-  imgAlt: string;
   description: string;
 }
 
-const { title, imgAlt, imgSrc, description } = Astro.props;
+const { title, imgSrc, description } = Astro.props;
 ---
 
 <Card color='white'>
