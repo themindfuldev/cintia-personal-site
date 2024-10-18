@@ -4,7 +4,7 @@ pubDate: 2021-10-27 00:00
 tags:
   - article
   - accessibility
-  - design-system
+  - design-systems
 imgUrl: '../../assets/article-accessible-design-is-easier-than-you-think.png'
 description: A Pinterest Design Blog article I wrote to provide easy-to-follow steps to include accessibility as part of the design process.
 layout: '../../layouts/BlogPost.astro'

@@ -4,7 +4,7 @@ pubDate: 2023-09-01 00:00
 tags:
   - talk
   - accessibility
-  - design-system
+  - design-systems
 imgUrl: '../../assets/talk-the-design-system-podcast.png'
 description: In this episode I joined my coworker (and friend) Kate Halovorsen to share a little bit about our work at Gestalt, the Pinterest Design Systems. 
 layout: '../../layouts/BlogPost.astro'

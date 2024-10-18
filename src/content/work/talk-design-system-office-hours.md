@@ -4,7 +4,7 @@ pubDate: 2023-09-01 00:00
 tags:
   - talk
   - accessibility
-  - design-system
+  - design-systems
 imgUrl: '../../assets/talk-design-system-office-hours.png'
 description: I had the pleasure to chat with my design friends (and hosters) about some of the accessibility projects I led and share some challenges I had. 
 layout: '../../layouts/BlogPost.astro'

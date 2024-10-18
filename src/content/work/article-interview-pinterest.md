@@ -4,7 +4,7 @@ pubDate: 2023-05-18 00:00
 tags:
   - article
   - accessibility
-  - design-system
+  - design-systems
 imgUrl: '../../assets/article-interview-pinterest.png'
 description: A blog post for the Pinterest Careers website where I shared my journey at Pinterest in making our product more accessible to all audiences, and of course an opportunity for you to see my cute dog Sherlock! 
 layout: '../../layouts/BlogPost.astro'

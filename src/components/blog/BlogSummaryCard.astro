@@ -22,7 +22,7 @@ const { post } = Astro.props;
       ? post.data.link 
         ? <Button href={post.data.link} target="_blank">Open work &rarr;</Button> 
         : <Button href={`/work/${post.slug}/`}>Read work &rarr;</Button> 
-      : <Button href="#">Coming soon...</Button>
+      : <button class="brutal-btn" disabled>Coming soon...</button>
     }
   </div>
 
@@ -34,8 +34,8 @@ const { post } = Astro.props;
           post.data.tags.map((tag) => {
             return (
               <li>
-                <a class="sanchez" href={`/work/tags/${tag.toLowerCase()}/`}>
-                  <Pill>{tag}</Pill>
+                <a class="sanchez" href={`/work/tags/${tag}/`}>
+                  <Pill>{tag.replace("-", " ")}</Pill>
                 </a>
               </li>
             );

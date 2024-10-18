@@ -4,7 +4,7 @@ pubDate: 2024-03-15 00:00
 tags:
   - article
   - accessibility
-  - design-system
+  - design-systems
 imgUrl: '../../assets/article-accessibility-in-design-systems.png'
 description: I wrote this article for Supernova to share my documentation approach to help develop an accessibility mindset that can be scaled effectively through design systems.
 layout: '../../layouts/BlogPost.astro'
