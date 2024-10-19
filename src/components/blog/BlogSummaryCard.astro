@@ -19,8 +19,8 @@ const { post } = Astro.props;
   <div class='flex justify-end my-4'>
     {post.data.live 
       ? post.data.link 
-        ? <Button href={post.data.link} target="_blank">Open work &rarr;</Button> 
-        : <Button href={`/work/${post.slug}/`}>Read work &rarr;</Button> 
+        ? <Button href={post.data.link} target="_blank">Check it out &rarr;</Button> 
+        : <Button href={`/work/${post.slug}/`}>Read more &rarr;</Button> 
       : <button class="brutal-btn" disabled>Coming soon...</button>
     }
   </div>
