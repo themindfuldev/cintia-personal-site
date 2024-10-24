@@ -33,14 +33,17 @@ const { backToTop = false } = Astro.props;
   )
 }
 
-<footer class='bg-black text-white p-6'>
+<footer class='bg-black text-white p-6 flex justify-between'>
   <h2 class='hidden'>Footer</h2>
   <p class='outfit'>
     Developed using <a
       href='https://github.com/eliancodes/brutal'
       target='_blank'
-      class='text-blue'>Brutal theme for Astro</a
+      class='text-blue'>Brutal theme</a
     >
+  </p>
+  <p class='outfit'>
+    <a href='/accessibility-statement/' class='text-blue'>Accessibility Statement</a>
   </p>
 </footer>
 

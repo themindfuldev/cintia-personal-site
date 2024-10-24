@@ -11,4 +11,4 @@ layout: '../../layouts/BlogPost.astro'
 live: false
 ---
 
-A non-profit website project I supported to ensure that immigrants, refugees and low-income residents in Concord and surrounding communities have the voice, tools and relationships necessary to earn an equitable share of the social and economic wealth. The goal was to elevate the look and feel of Monument Impact, bringing more donations to the community and focusing on a mobile-friendly interface.
+[Monument Impact](https://monumentimpact.org/) is a non-profit website project I supported to ensure that immigrants, refugees and low-income residents in Concord and surrounding communities have the voice, tools and relationships necessary to earn an equitable share of the social and economic wealth. The goal was to elevate the look and feel of Monument Impact, bringing more donations to the community and focusing on a mobile-friendly interface.
