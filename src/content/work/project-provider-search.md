@@ -1,5 +1,5 @@
 ---
-title: Provider Search @Delta Dental
+title: Provider Search @ Delta Dental
 pubDate: 2021-01-01 00:00
 tags:
   - project
