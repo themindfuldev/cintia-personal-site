@@ -18,7 +18,7 @@ I joined [Gestalt](https://gestalt.pinterest.systems/home) (Pinterest's Design S
 
 ![Gestalt components](../../assets/project-gestalt-components.png)
 
-*Gestalt components*
+<small>Gestalt components</small>
 
 ## Some of my (Gestalt) wins 
 
@@ -38,7 +38,7 @@ I joined [Gestalt](https://gestalt.pinterest.systems/home) (Pinterest's Design S
 
 ![Accessibility training for designers certificate](../../assets/project-gestalt-a11y-certificate.png)
 
-*"You completed the Gestalt Accessibility Training for Designers. Thanks for being an accessibility ally. Keep up your good work."*
+<small>"You completed the Gestalt Accessibility Training for Designers. Thanks for being an accessibility ally. Keep up your good work."</small>
 
 <br/>
 
@@ -46,7 +46,7 @@ I joined [Gestalt](https://gestalt.pinterest.systems/home) (Pinterest's Design S
 
 ![Design System Day](../../assets/project-gestalt-dsd.jpg)
 
-*Photo courtesy P.J. Onori.*
+<small>*Photo courtesy P.J. Onori.</small>
 
 Some of the attendees feedback:
 
@@ -63,15 +63,15 @@ Some of the attendees feedback:
 
 - Awarded Design System! Gestalt won in three categories: **Best collaboration**, **Best article** ([How Gestalt measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/) by Ravi Lingineni), and **People’s Choice**. It was great being honored with other amazing design systems teams in the industry, and the three awards track with our current internal initiatives: more adoption, more contributions and even more collaboration. I was also a nominee and finalist in the **"Best talk"** category ([watch my talk](https://www.youtube.com/watch?v=SN4G7MvGGvQ)). Awards were given by the [Zeroheight Design Systems Awards](https://zeroheight.com/events/design-system-awards/).
 
-![Design Systems Awards Ceremony](../../assets/project-gestalt-ds-awards.png)
+![Design Systems Awards Ceremony](../../assets/project-gestalt-ds-awards.jpg)
 
 <br/>
 
 - My project "Closed Captioning for Videos and Idea Pins" won the 2022 Makeathon (Pinterest Hackathon) getting the prize for the Creating Belonging category.
 
-![Makeathon winner announcement](../../assets/project-gestalt-makeathon-winners.png)
+![Makeathon winner announcement](../../assets/project-gestalt-makeathon-winners.jpg)
 
-*I won, yay 🎉*
+<small>I won, yay 🎉*</small>
 
 ## My design process: creating a component 
 
@@ -82,6 +82,8 @@ Below I describe my design process using the "Link" redesign project as an examp
 <br/>
 
 ![Diagram: component process](../../assets/project-gestalt-diagram-component-process.png)
+
+<small>My 6-step component design process</small>
 
 <br/>
 
@@ -137,14 +139,18 @@ See the [Link documentation](https://gestalt.pinterest.systems/web/link) on its 
 "></iframe>
 </div>
 
-## Final considerations
+## More of my work
+
+Besides components, I also worked on the following foundation guidelines and patterns: [Accessibility guidelines](https://gestalt.pinterest.systems/foundations/accessibility), [Brand expression](https://gestalt.pinterest.systems/foundations/brand_expression/guidelines), [Color palette](https://gestalt.pinterest.systems/foundations/color/palette), [Color usage](https://gestalt.pinterest.systems/foundations/color/usage), [Elevation](https://gestalt.pinterest.systems/foundations/elevation), and [Team support](https://gestalt.pinterest.systems/team_support/overview).  
+
+![Cintia Romero](../../assets/project-gestalt-cintia-romero.jpg)
+
+<br/>
 
 💙 <ins>Kudos from an engineer teammate:</ins>
 
 > *"Cintia did an awesome job on her Gestalt Links redesign work and she has been an awesome partner to work with!"*
 
-Besides components, I also worked on the following foundation guidelines and patterns: [Accessibility guidelines](https://gestalt.pinterest.systems/foundations/accessibility), [Brand expression](https://gestalt.pinterest.systems/foundations/brand_expression/guidelines), [Color palette](https://gestalt.pinterest.systems/foundations/color/palette), [Color usage](https://gestalt.pinterest.systems/foundations/color/usage), [Elevation](https://gestalt.pinterest.systems/foundations/elevation), and [Team support](https://gestalt.pinterest.systems/team_support/overview).  
-
-![Cintia Romero](../../assets/project-gestalt-cintia-romero.jpg)
+<br/>
 
 You can also learn more about my journey at Pinterest by reading the article: [People behind the product: Cintia Romero](https://www.pinterestcareers.com/life-at-pinterest-blog/inclusion-diversity/people-behind-the-product-cintia-romero-pinterest-product-designer/). 😀

@@ -19,6 +19,8 @@ Since I started at Pinterest, my goal has been to ensure that Gestalt components
 
 ![Accessibility Page](../../assets/project-accessibility-design-accessibility-page.png)
 
+<small>Accessibility Guidelines on Gestalt.</small>
+
 <br/>
 
 💙 <ins>Kudos from a teammate:</ins>
@@ -39,7 +41,7 @@ My role as an Accessibility Lead at Pinterest was based on the four pillars belo
 - Interviewed and hired a designer contractor, and acted as the Assigned Manager, leading the contract work on auditing 20 components in the Gestalt Design System to achieve compliance, identifying and supporting the remediation of 15 accessibility issues, plus directing the work on redesigning our former accessibility annotations kit. 
 - Contributed to create a TPM accessibility-related job kit, and joined the panel interviews to hire our new role to support accessibility. Yay! 
 
-## 2. Usability tests with people with disabilities
+## 2. Usability test with people with disabilities
 
 - Proposed and onboarded a new vendor, [Fable](https://makeitfable.com/), to support accessibility initiatives such as research and training.
 - Partnered with the UX Research and Legal teams to develop a research process and assign DRIs for usability studies.
@@ -56,13 +58,13 @@ My role as an Accessibility Lead at Pinterest was based on the four pillars belo
 
 💙 <ins>Kudos from a teammate:</ins>
 
-> *"Cintia, thank you for all your efforts spinning up the Accessibility Design program. You’re leading the charge running studies w/ Fable, supporting the Product Belonging vision with explorations, launching Makeathon work for accessibility guidance for advertisers, and teeing up a business proposal/story to spotlight all this hard work. I know you’ll continue to be a strong teammate and design partner to bring accessibility to the forefront at Pinterest. Keep up the resilience!"*
+> "Cintia, thank you for all your efforts spinning up the Accessibility Design program. You’re leading the charge running studies w/ Fable, supporting the Product Belonging vision with explorations, launching Makeathon work for accessibility guidance for advertisers, and teeing up a business proposal/story to spotlight all this hard work. I know you’ll continue to be a strong teammate and design partner to bring accessibility to the forefront at Pinterest. Keep up the resilience!"
 
 <br/>
 
 💙 <ins>Kudos from my manager:</ins>
 
-> *"Hats off to Cintia, who laid the groundwork for our new Accessibility Design program. She sourced and onboarded a new vendor who help us run accessibility and usability tests with disabled users so we can make the Pinterest product truly more and more a place for *everyone*. Thank you Cintia for working through the transition, taking a first stab at crafting and prioritizing projects on the H2 roadmap, and also hiring a dedicated contractor to support! So very excited to partner with you and help you flourish."*
+> "Hats off to Cintia, who laid the groundwork for our new Accessibility Design program. She sourced and onboarded a new vendor who help us run accessibility and usability tests with disabled users so we can make the Pinterest product truly more and more a place for **everyone**. Thank you Cintia for working through the transition, taking a first stab at crafting and prioritizing projects on the H2 roadmap, and also hiring a dedicated contractor to support! So very excited to partner with you and help you flourish."
 
 ## 4. Advocacy 😀
 
@@ -75,19 +77,21 @@ My role as an Accessibility Lead at Pinterest was based on the four pillars belo
 
 ![Accessibility Advisor](../../assets/project-accessibility-design-accessibility-advisor.png)
 
-*Accessibility Advisor in action (mockup)*
+<small>Accessibility Advisor in action (mockup).</small>
 
 <br/>
 
 ![Accessibility guidelines for accessible ads](../../assets/project-accessibility-design-ads-accessibiity-guidelines.png)
 
-*Accessibility guidelines for accessible ads. Read all by checking [Pinterest Creative Best Practices](https://business.pinterest.com/creative-best-practices).*
+<small>Accessibility guidelines for accessible ads. Read all by checking [Pinterest Creative Best Practices](https://business.pinterest.com/creative-best-practices).</small>
 
 <br/>
 
 ![Accessibility checklist for designers](../../assets/project-accessibility-design-a11y-checklist.png)
 
-*Accessibility checklist for designers. Check out the [written version here](https://gestalt.pinterest.systems/foundations/accessibility#Design-considerations).*
+<small>Accessibility checklist for designers. Check out the [written version here](https://gestalt.pinterest.systems/foundations/accessibility#Design-considerations).</small>
+
+<br/>
 
 Please note that some of the work I mentioned is confidential, so I won’t share information here to respect my company's privacy. If you are curious to learn more about my accessibility expertise or want to chat, feel free to [drop me a line](/contact)! 
 
