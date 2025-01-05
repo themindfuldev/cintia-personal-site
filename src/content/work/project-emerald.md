@@ -185,7 +185,7 @@ For all components, we needed to ensure:
 
 <br/>
 
-< IMG5 >
+![Definition of done](../../assets/project-emerald-ds-checklist.jpg)
 
 <small>Design system workshop around “definition of done”</small>
 
