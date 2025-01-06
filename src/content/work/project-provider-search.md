@@ -41,7 +41,7 @@ Persona example for reference:
 
 <br/>
 
-![Persona: Dr. Diallo](../../assets/project-provider-search-persona.jpg)
+![Persona graphic showing a Provider profile. ](../../assets/project-provider-search-persona.jpg)
 
 <br/>
 
@@ -56,7 +56,7 @@ One of the things I enjoyed while working at Delta Dental was the workshops we u
 
 <br/>
 
-![Workshop](../../assets/project-provider-search-workshop-dd.jpg)
+![Cintia is standing along 2 other coworkers discussing a journey map. There is a panel full of post-its and notes in front of them. They are at the office attending a workshop event.](../../assets/project-provider-search-workshop-dd.jpg)
 
 <small>Journey map workshop at Delta Dental</small>
 
@@ -80,7 +80,7 @@ The goal was to enhance search functionality by providing multiple filtering opt
 
 <br/>
 
-![Provider Search directory (before)](../../assets/project-provider-search-directory-before.jpg)
+![Provider Search website before redesign. It has a busy design and a purple color scheme.](../../assets/project-provider-search-directory-before.jpg)
 
 <br/>
 
@@ -88,7 +88,7 @@ The goal was to enhance search functionality by providing multiple filtering opt
 
 <br/>
 
-![Provider Search directory (after)](../../assets/project-provider-search-directory-after.jpg)
+![Provider Search website after redesign. It has more white space and a green color scheme.](../../assets/project-provider-search-directory-after.jpg)
 
 <br/>
 
@@ -96,7 +96,7 @@ The goal was to enhance search functionality by providing multiple filtering opt
 
 <br/>
 
-![Mobile search autosuggest enhancement ](../../assets/project-provider-search-autosuggest-mobile.png)
+![Mobile search feature showing potential autosuggest results for a typed entry.](../../assets/project-provider-search-autosuggest-mobile.png)
 
 <br/>
 

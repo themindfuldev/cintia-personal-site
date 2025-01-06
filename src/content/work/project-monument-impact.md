@@ -14,7 +14,7 @@ layout: '../../layouts/BlogPost.astro'
 
 [Monument Impact](https://monumentimpact.org/) is a non-profit website project I supported to ensure that immigrants, refugees and low-income residents in Concord and surrounding communities have the voice, tools and relationships necessary to earn an equitable share of the social and economic wealth. The goal was to elevate the look and feel of Monument Impact, bringing more donations to the community and focusing on a mobile-friendly interface.
 
-![Monument Impact](../../assets/project-monument-impact-large.jpg)
+![Mockup showing the Monument Impact website on a laptop and on a mobile screen.](../../assets/project-monument-impact-large.jpg)
 
 ## The problem definition 
 
@@ -71,7 +71,7 @@ Concepts to solve the problem:
 
 ### Persona 1
 
-![Persona 1](../../assets/project-monument-impact-persona-1.jpg)
+![First persona profile showing a light-brown skinned Latina woman smiling.](../../assets/project-monument-impact-persona-1.jpg)
 
 **Background**
 
@@ -126,7 +126,7 @@ Concepts to solve the problem:
 
 ### Persona 2
 
-![Persona 2](../../assets/project-monument-impact-persona-2.jpg)
+![Second persona profile showing a light-brown skinned Latino man smiling.](../../assets/project-monument-impact-persona-2.jpg)
 
 **Background**
 
@@ -204,15 +204,15 @@ I prefer starting out with low-fidelity wireframes to think through the structur
 
 ### Homepage
 
-![Homepage](../../assets/project-monument-impact-low-1.png)
+![Homepage low-fidelity wireframe.](../../assets/project-monument-impact-low-1.png)
 
 ### Programs
 
-![Programs](../../assets/project-monument-impact-low-2.png)
+![Programs page low-fidelity wireframe.](../../assets/project-monument-impact-low-2.png)
 
 ### Contact us
 
-![Contact us](../../assets/project-monument-impact-low-1.png)
+![Contact us low-fidelity wireframe.](../../assets/project-monument-impact-low-1.png)
 
 ---
 
@@ -221,42 +221,42 @@ I prefer starting out with low-fidelity wireframes to think through the structur
 Here you can see the evolution of a few pages, as how they were before my work, and how they became after it.
 
 ### Homepage (Before)
-![Homepage (Before)](../../assets/project-monument-impact-homepage-1.png)
+![Homepage design before Cintia's work.](../../assets/project-monument-impact-homepage-1.png)
 
 ### Homepage (After)
-![Homepage (After)](../../assets/project-monument-impact-homepage-2.png)
+![Homepage design after Cintia's work.](../../assets/project-monument-impact-homepage-2.png)
 
 ---
 
 ### Mission and values (Before)
-![Mission and values (Before)](../../assets/project-monument-impact-mission-and-values-1.png)
+![Mission and values page design before Cintia's work.](../../assets/project-monument-impact-mission-and-values-1.png)
 
 ### Mission and values (After)
-![Mission and values (After)](../../assets/project-monument-impact-mission-and-values-2.png)
+![Mission and values page design after Cintia's work.](../../assets/project-monument-impact-mission-and-values-2.png)
 
 ---
 
 ### Team (Before)
-![Team (Before)](../../assets/project-monument-impact-team-1.png)
+![Team page design before Cintia's work.](../../assets/project-monument-impact-team-1.png)
 
 ### Team (After)
-![Team (After)](../../assets/project-monument-impact-team-2.png)
+![Team page design after Cintia's work.](../../assets/project-monument-impact-team-2.png)
 
 ---
 
 ### Technology (Before)
-![Technology (Before)](../../assets/project-monument-impact-technology-1.png)
+![Technology page design before Cintia's work.](../../assets/project-monument-impact-technology-1.png)
 
 ### Technology (After)
-![Technology (After)](../../assets/project-monument-impact-technology-2.png)
+![Technology page design after Cintia's work.](../../assets/project-monument-impact-technology-2.png)
 
 ---
 
 ### Ways of giving (Before)
-![Ways of giving (Before)](../../assets/project-monument-impact-ways-of-giving-1.png)
+![Ways of giving page design before Cintia's work.](../../assets/project-monument-impact-ways-of-giving-1.png)
 
 ### Ways of giving (After)
-![Ways of giving (After)](../../assets/project-monument-impact-ways-of-giving-2.png)
+![Ways of giving page design before Cintia's work.](../../assets/project-monument-impact-ways-of-giving-2.png)
 
 ---
 

@@ -74,13 +74,13 @@ At Delta Dental we used Sketch and Storybook for documentation. The components w
 
 <br/>
 
-![Loader](../../assets/project-emerald-loader.png)
+![Loaders components examples showing the determinate and indeterminate loaders.](../../assets/project-emerald-loader.png)
 
 <small>Loader example</small>
 
 <br/>
 
-![Skeleton](../../assets/project-emerald-skeleton.png)
+![Provider Search website showing skeletons in a loading progress.](../../assets/project-emerald-skeleton.png)
 
 <small>Skeleton example</small>
 
@@ -90,7 +90,7 @@ You can find the documentation and context regarding the images above by checkin
   - <a href="../../project-emerald-loader.pdf" target="_blank" rel="noopener" >Loader</a>
   - <a href="../../project-emerald-skeleton.pdf" target="_blank" rel="noopener" >Skeleton</a>
 
-**Disclaimer:** The design system is an internal resource, so unfortunately I can’t share much of it here. Feel free to reach out if you want to learn more about my work on Emerald.
+**Disclaimer:** The Emerald design system was an internal resource and private to Delta Dental designers and engineers. Unfortunately I can't share much of it here. Feel free to reach out if you want to learn more about my work on Emerald.
 
 ## Emerald component process 
 
@@ -131,7 +131,7 @@ You can find the documentation and context regarding the images above by checkin
 
 <br/>
 
-![Our component creation process](../../assets/project-emerald-component-process.png)
+![Component creating process diagram.](../../assets/project-emerald-component-process.png)
 
 <br/>
 
@@ -150,7 +150,7 @@ You can find the documentation and context regarding the images above by checkin
 
 <br/>
 
-![UI component lifecycle](../../assets/project-emerald-component-lifecycle.png)
+![UI component lifecycle diagram.](../../assets/project-emerald-component-lifecycle.png)
 
 <br/>
 
@@ -160,7 +160,7 @@ One of the core values of Emerald was accessibility. We believed it was everyone
 
 <br/>
 
-![Key roles in ensuring accessibility](../../assets/project-emerald-accessibility.png)
+![Key roles in ensuring accessibility diagram.](../../assets/project-emerald-accessibility.png)
 
 <br/>
 
@@ -185,7 +185,7 @@ For all components, we needed to ensure:
 
 <br/>
 
-![Definition of done](../../assets/project-emerald-ds-checklist.jpg)
+![A piece of paper showing a checklist for a component definition of done used during a design system workshop.](../../assets/project-emerald-ds-checklist.jpg)
 
 <small>Design system workshop around “definition of done”</small>
 

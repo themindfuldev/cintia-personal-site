@@ -16,7 +16,7 @@ I joined [Gestalt](https://gestalt.pinterest.systems/home) (Pinterest's Design S
 
 <br/>
 
-![Gestalt components](../../assets/project-gestalt-components.png)
+![Screenshot showing a visual representation of the Gestalt components.](../../assets/project-gestalt-components.png)
 
 <small>Gestalt components</small>
 
@@ -24,19 +24,19 @@ I joined [Gestalt](https://gestalt.pinterest.systems/home) (Pinterest's Design S
 
 - My work around community advocacy regarding components libraries led to a 37.3% increase in designer sentiment of Gestalt compared to previous years, bringing it up to 95.2%.
 
-![Gestalt's designer sentiment](../../assets/project-gestalt-sentiment.png)
+![Metrics graphic showing a design sentiment increase of 37.3% compared to 2020.](../../assets/project-gestalt-sentiment.png)
 
 <br/>
 
 - I published the first Accessibility Annotations Kit to support design/engineering handoff.
 
-![Accessibility annotations components](../../assets/project-gestalt-a11y-annotations.png)
+![Screenshot showing the usage of the accessibility annotations kit on design files. ](../../assets/project-gestalt-a11y-annotations.png)
 
 <br/>
 
 - I built the first ever accessibility training for designers at Pinterest and made the training part of the EPD onboarding. Every new hire in our org now gets to learn about digital accessibility! 
 
-![Accessibility training for designers certificate](../../assets/project-gestalt-a11y-certificate.png)
+![A sample of the Gestalt certification for completing the accessibility training for designers.](../../assets/project-gestalt-a11y-certificate.png)
 
 <small>"You completed the Gestalt Accessibility Training for Designers. Thanks for being an accessibility ally. Keep up your good work."</small>
 
@@ -44,7 +44,7 @@ I joined [Gestalt](https://gestalt.pinterest.systems/home) (Pinterest's Design S
 
 - I idealized and launched the [Design System Day](https://medium.com/pinterest-studio/why-we-host-an-internal-design-systems-conference-3bb6017c6ca2), an internal conference that focuses on design system, accessibility and community.
 
-![Design System Day](../../assets/project-gestalt-dsd.jpg)
+![Design System Day event at the Pinterest Office. Cintia is seated at the front of the stage, while a man is speaking for the audience.](../../assets/project-gestalt-dsd.jpg)
 
 <small>*Photo courtesy P.J. Onori.</small>
 
@@ -63,13 +63,13 @@ Some of the attendees feedback:
 
 - Awarded Design System! Gestalt won in three categories: **Best collaboration**, **Best article** ([How Gestalt measures adoption](https://www.figma.com/blog/how-pinterests-design-systems-team-measures-adoption/) by Ravi Lingineni), and **People’s Choice**. It was great being honored with other amazing design systems teams in the industry, and the three awards track with our current internal initiatives: more adoption, more contributions and even more collaboration. I was also a nominee and finalist in the **"Best talk"** category ([watch my talk](https://www.youtube.com/watch?v=SN4G7MvGGvQ)). Awards were given by the [Zeroheight Design Systems Awards](https://zeroheight.com/events/design-system-awards/).
 
-![Design Systems Awards Ceremony](../../assets/project-gestalt-ds-awards.jpg)
+![Design System Awards ceremony stage calling Gestalt as a winner.](../../assets/project-gestalt-ds-awards.jpg)
 
 <br/>
 
 - My project "Closed Captioning for Videos and Idea Pins" won the 2022 Makeathon (Pinterest Hackathon) getting the prize for the Creating Belonging category.
 
-![Makeathon winner announcement](../../assets/project-gestalt-makeathon-winners.jpg)
+![Makeathon winner announcement, showing Cintia's project and teammates on the screen.](../../assets/project-gestalt-makeathon-winners.jpg)
 
 <small>I won, yay 🎉*</small>
 
@@ -81,9 +81,9 @@ Below I describe my design process using the "Link" redesign project as an examp
 
 <br/>
 
-![Diagram: component process](../../assets/project-gestalt-diagram-component-process.png)
+![My component design process, steps 1 to 3.](../../assets/project-gestalt-diagram-component-process-01-03.png)
 
-<small>My 6-step component design process</small>
+<small>My 6-step component design process, steps 1 to 3.</small>
 
 <br/>
 
@@ -107,6 +107,14 @@ Below I describe my design process using the "Link" redesign project as an examp
    - **Develop the component:** Work with the engineer to ensure the link component follows the established coding standards and best practices.
    - **Unit testing:** Have the engineering team performing unit tests to ensure the link component functions as expected.
    - **Integration testing:** Have the engineering team integrate the link component into the larger product and test its functionality in the context of the overall user experience.
+
+<br/>
+
+![My component design process, steps 4 to 6.](../../assets/project-gestalt-diagram-component-process-04-06.png)
+
+<small>My 6-step component design process, steps 4 to 6.</small>
+
+<br/>   
 
 ### 4. Document
    - Write clear and concise documentation for the link component, including usage guidelines, best practices, and accessibility considerations. If the component has a different version for mobile, create the respective docs. 
@@ -143,7 +151,7 @@ See the [Link documentation](https://gestalt.pinterest.systems/web/link) on its 
 
 Besides components, I also worked on the following foundation guidelines and patterns: [Accessibility guidelines](https://gestalt.pinterest.systems/foundations/accessibility), [Brand expression](https://gestalt.pinterest.systems/foundations/brand_expression/guidelines), [Color palette](https://gestalt.pinterest.systems/foundations/color/palette), [Color usage](https://gestalt.pinterest.systems/foundations/color/usage), [Elevation](https://gestalt.pinterest.systems/foundations/elevation), and [Team support](https://gestalt.pinterest.systems/team_support/overview).  
 
-![Cintia Romero](../../assets/project-gestalt-cintia-romero.jpg)
+![Cintia is standing at the Pinterest office, holding a lilac pin-shaped pillow. She is smiling and surrounded by other pillows that form the word "Pins”. ](../../assets/project-gestalt-cintia-romero.jpg)
 
 <br/>
 
