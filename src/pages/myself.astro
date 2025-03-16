@@ -34,12 +34,12 @@ import { Image } from "astro:assets";
               better experience for everyone.
             </p>
             <p class="mt-2 outfit text-xl md:text-lg lg:text-xl">
-              Additionally, I am an active member of the <a
-                href="https://www.accessibilityassociation.org/s/"
+              Additionally, I hold the <a
+                href="https://www.credly.com/badges/f5b663c0-81f1-4dc4-902e-c0214ed52e71"
                 target="_blank"
                 class="hover:text-violet-600 underline transition-all duration-150 ease-in-out"
               >
-                International Association of Accessibility Professionals (IAAP)</a
+               CPACC certification from IAAP</a
               >, and I enjoy sharing my knowledge by mentoring other designers
               and speaking at conferences about design.
             </p>
@@ -50,19 +50,17 @@ import { Image } from "astro:assets";
           </div>
         </Card>
       </div>
-      <div
-        class="lg:col-span-2 md:col-span-3 sm:col-span-8 md:row-span-2 lg:row-span-1"
-      >
+      <div class="lg:col-span-2 md:col-span-3 sm:col-span-8 md:row-span-2 lg:row-span-1 flex">
         <Image
           class="object-cover w-full rounded-lg border-3 border-black card-shadow"
           format="webp"
           width={800}
           height={800}
           src="/profile-3.webp"
-          alt="Cintia's face"
+          alt="Cintia and Sherlock"
         />
       </div>
-      <div class="lg:col-span-3 md:col-span-5 sm:col-span-8">
+      <div class="lg:col-span-3 md:col-span-5 sm:col-span-8 md:row-span-1">
         <Card color="#38bdf8">
           <h2 class="text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif">
             5 facts about me
@@ -73,13 +71,13 @@ import { Image } from "astro:assets";
             <li>I'm colorblind</li>
             <li>I have Indigenous roots</li>
             <li>
-              I speak 3 languages (Portuguese, English, Spanish).<br />Learning
+              I speak 3 languages (Portuguese, English, Spanish). Learning
               ASL, next Italian!
             </li>
           </ul>
         </Card>
       </div>
-      <div class="lg:col-span-5 md:col-span-8 sm:col-span-8">
+      <div class="lg:col-span-5 md:col-span-8 sm:col-span-8 md:row-span-2">
         <Card color="#34d399">
           <h2 class="text-2xl md:text-4xl lg:text-6xl mb-8 dm-serif">
             My values
@@ -106,6 +104,22 @@ import { Image } from "astro:assets";
               for mental health awareness and support. We're all humans!
             </li>
           </ul>
+        </Card>
+      </div>
+      <div class="lg:col-span-3 sm:col-span-8 lg:row-span-1 flex sm:justify-center lg:justify-right">
+        <Card color="#a78bfa">
+          <a
+            href="https://www.credly.com/badges/f5b663c0-81f1-4dc4-902e-c0214ed52e71"
+            target="_blank"
+          >
+            <Image
+              format="png"
+              width={200}
+              height={200}
+              src="/cpacc.png"
+              alt="IAAP Certified CPACC"
+            />
+          </a>
         </Card>
       </div>
     </section>
