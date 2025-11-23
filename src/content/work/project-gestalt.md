@@ -12,7 +12,7 @@ layout: '../../layouts/BlogPost.astro'
 
 # Gestalt @ Pinterest
 
-I joined [Gestalt](https://gestalt.pinterest.systems/home) (Pinterest's Design System) in 2021 to be the first Product Designer fully dedicated to the design systems team. Before moving to an accessibility dedicated role (my current role), I spent my past years crafting components, writing guidelines to support designers and engineers, developing system education (training, resources and workshops), and advocating for accessibility and inclusive design. 
+I joined [Gestalt](https://gestalt.pinterest.systems/) (Pinterest's Design System) in 2021 to be the first Product Designer fully dedicated to the design systems team. Before moving to an accessibility dedicated role (my current role), I spent my past years crafting components, writing guidelines to support designers and engineers, developing system education (training, resources and workshops), and advocating for accessibility and inclusive design. 
 
 <br/>
 
@@ -75,7 +75,7 @@ Some of the attendees feedback:
 
 ## My design process: creating a component 
 
-Over the past three years, I have worked on multiple components and projects, but one of my favorites was the [Link component](https://gestalt.pinterest.systems/web/link). Although it appears simple, the link element often presents various challenges related to usability and accessibility.
+Over the past three years, I have worked on multiple components and projects, but one of my favorites was the [Link component](https://gestalt.pinterest.systems/v1/web/link). Although it appears simple, the link element often presents various challenges related to usability and accessibility.
 
 Below I describe my design process using the "Link" redesign project as an example, which is a similar process for most of the components I build. 
 
@@ -129,7 +129,7 @@ Below I describe my design process using the "Link" redesign project as an examp
 
 <br/>
 
-See the [Link documentation](https://gestalt.pinterest.systems/web/link) on its current state: 
+See the [Link documentation](https://gestalt.pinterest.systems/v1/web/link) on its current state: 
 
 <div style="
   width: 100%;
@@ -139,7 +139,7 @@ See the [Link documentation](https://gestalt.pinterest.systems/web/link) on its 
   border-radius: 4px;
   outline: 2px solid #efefef;
 ">
-<iframe src="https://gestalt.pinterest.systems/web/link" style="
+<iframe src="https://gestalt.pinterest.systems/v1/web/link" style="
   width: 100%;
   height: calc(70vh + 76px);
   border: 0;

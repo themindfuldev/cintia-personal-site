@@ -5,7 +5,7 @@ export async function GET(context) {
   const blog = await getCollection('work');
   return rss({
     title: 'Cintia Romero',
-    description: "I'm Cintia Romero (she/her)! I craft inclusive digital experiences that make everyday life easier. Currently, I'm a Senior Product Designer at Pinterest with a focus on accessibility, and design systems.",
+    description: "I'm Cintia Romero (she/her)! I craft inclusive digital experiences that make everyday life easier. Currently, I'm a Senior Staff Designer at Adobe, part of the Product Equity team with a focus on accessibility and inclusive design.",
     stylesheet: false,
     site: context.site,
     items: blog.map((post) => ({

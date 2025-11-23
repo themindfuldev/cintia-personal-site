@@ -13,7 +13,7 @@ layout: '../../layouts/BlogPost.astro'
 
 # Accessibility Design @ Pinterest 
 
-Since I started at Pinterest, my goal has been to ensure that Gestalt components from the Pinterest Design System are accessible and considered part of what "done" means. I strongly believe that accessibility should be integrated into everything from the very beginning. As a result, a significant portion of my work has involved enhancing the [Gestalt accessibility page](https://gestalt.pinterest.systems/foundations/accessibility), offering accessibility guidelines for the components, providing consultancy through Office Hours, Slack, and Crit meetings, and supporting designers and engineers as needed from a system designer perspective.
+Since I started at Pinterest, my goal has been to ensure that Gestalt components from the Pinterest Design System are accessible and considered part of what "done" means. I strongly believe that accessibility should be integrated into everything from the very beginning. As a result, a significant portion of my work has involved enhancing the [Gestalt accessibility page](https://gestalt.pinterest.systems/v1/foundations/accessibility), offering accessibility guidelines for the components, providing consultancy through Office Hours, Slack, and Crit meetings, and supporting designers and engineers as needed from a system designer perspective.
 
 <br/>
 
